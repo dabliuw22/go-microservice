@@ -2,17 +2,17 @@ package service
 
 import (
 	"go-microservice/entity"
-	"github.com/dabliuw22/go-microservice/repository"
+	"go-microservice/repository"
 )
 
 func saveService(user *entity.User) {}
 
-func findByIdService(id int64) entity.User  {
-	return repository.findById(id)
+func FindByIdService(id int64) *entity.User  {
+	return repository.FindById(id)
 }
 
 func findAllService() []entity.User  {
-	return repository.findAll()
+	return repository.FindAll()
 }
 
 func updateService(user *entity.User) {}

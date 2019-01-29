@@ -1,17 +1,17 @@
 package repository
 
-import "github.com/dabliuw22/go-microservice/entity"
+import "go-microservice/entity"
 
-func save(user *entity.User) {}
+func Save(user *entity.User) {}
 
-func findById(id int64) *entity.User  {
+func FindById(id int64) *entity.User  {
 	return entity.NewUserWithId(int64(1), "")
 }
 
-func findAll() []entity.User  {
+func FindAll() []entity.User  {
 	return []entity.User {*entity.NewUser("")}
 }
 
-func update(user *entity.User) {}
+func Update(user *entity.User) {}
 
-func delete(id int64) {}
+func Delete(id int64) {}

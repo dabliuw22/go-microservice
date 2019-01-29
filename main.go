@@ -3,14 +3,14 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 	"os"
-	"github.com/dabliuw22/go-microservice/controller"
+	"go-microservice/controller"
 )
 
 const PORT_ENV  = "PORT"
 
 func main() {
 	engine := gin.Default()
-	engine = controller.helloWorldRoute(engine)
+	engine = controller.HelloWorldRoute(engine)
 	engine.Run(port())
 }
 
