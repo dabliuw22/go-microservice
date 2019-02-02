@@ -1,6 +1,6 @@
 package repository
 
-import "go-microservice/entity"
+import "github.com/dabliuw22/go-microservice/entity"
 
 func Save(user *entity.User) {}
 
