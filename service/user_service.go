@@ -1,8 +1,8 @@
 package service
 
 import (
-	"go-microservice/entity"
-	"go-microservice/repository"
+	"github.com/dabliuw22/go-microservice/entity"
+	"github.com/dabliuw22/go-microservice/repository"
 )
 
 func saveService(user *entity.User) {}
