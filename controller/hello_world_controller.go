@@ -2,7 +2,7 @@ package controller
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-microservice/dto"
+	"github.com/dabliuw22/go-microservice/dto"
 	"net/http"
 )
 
